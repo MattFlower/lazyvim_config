@@ -1,0 +1,24 @@
+
+# User data (logs, shada, etc) - usually stored in ~/.local/state but good to be safe
+*.log
+*.shada
+
+# Swap files
+*.swp
+
+# LazyVim specifc
+# Do NOT ignore lazy-lock.json. This ensures all machines use identical plugin versions.
+
+# OS files we don't want to keep
+.DS_Store
+
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+
