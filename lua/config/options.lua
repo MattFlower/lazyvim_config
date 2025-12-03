@@ -53,6 +53,8 @@ return {
         "latex",
         "lua",
         "luadoc",
+        "markdown",
+        "markdown_inline",
         "nix",
         "org",
         "php",
