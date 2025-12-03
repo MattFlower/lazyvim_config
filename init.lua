@@ -11,3 +11,5 @@ vim.filetype.add({
 })
 
 vim.cmd([[set autowriteall]])
+
+vim.lsp.enable("copilot_ls")
