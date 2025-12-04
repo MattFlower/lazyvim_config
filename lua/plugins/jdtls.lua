@@ -57,6 +57,9 @@ return {
               profile = "GoogleStyle",
             },
           },
+          vmargs = {
+            "-Xmx6G",
+          },
         },
       },
     },
