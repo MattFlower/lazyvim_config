@@ -23,6 +23,7 @@ return {
         end,
         desc = "JShell",
       },
+      { "<leader>cW", "<cmd>JdtWipeDataAndRestart<cr>", desc = "Wipe JDT Data and Restart" },
       -- {
       --   "<leader>cJ",
       --   function()
