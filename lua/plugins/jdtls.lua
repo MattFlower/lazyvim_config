@@ -66,6 +66,7 @@ return {
           },
           vmargs = {
             "-Xmx6G",
+            -- "-XX:StartFlightRecording=settings=profile,duration=60s,filename=/tmp/jdtls-jfr-%t-%p.jfr",
           },
         },
       },
