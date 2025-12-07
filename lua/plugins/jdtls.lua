@@ -3,6 +3,13 @@ return {
     "mfussenegger/nvim-jdtls",
     keys = {
       {
+        "<leader>cgt",
+        function()
+          require("jdtls.tests").goto_subjects()
+        end,
+        desc = "Goto Class/Test",
+      },
+      {
         "<leader>tg",
         function()
           require("jdtls.tests").goto_subjects()
