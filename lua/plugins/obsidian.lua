@@ -1,3 +1,20 @@
+-- We need different paths for linux and MacOS
+-- Detect the first one in the list that happens to exist
+
+local function first_path_present(path_list)
+  for _, path in ipairs(path_list) do
+    if vim.fn.isdirectory(vim.fn.expand(path)) == 1 then
+      return path
+    end
+  end
+  return nil
+end
+
+local obsidian_path = first_path_present({
+  "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Brain",
+  "~/obsidian/Brain",
+})
+
 return {
   {
     "obsidian-nvim/obsidian.nvim",
@@ -23,7 +40,7 @@ return {
       workspaces = {
         {
           name = "Brain",
-          path = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Brain",
+          path = obsidian_path,
         },
       },
     },
