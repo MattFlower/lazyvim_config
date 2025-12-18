@@ -24,6 +24,19 @@ return {
         desc = "JShell",
       },
       { "<leader>cW", "<cmd>JdtWipeDataAndRestart<cr>", desc = "Wipe JDT Data and Restart" },
+      {
+        "<leader>dA",
+        function()
+          require("dap").run({
+            type = "java",
+            request = "attach",
+            name = "Attach to Remote (5005)",
+            hostName = "127.0.0.1",
+            port = 5005,
+          })
+        end,
+        desc = "Attach to Remote Java (5005)",
+      },
       -- {
       --   "<leader>cJ",
       --   function()
