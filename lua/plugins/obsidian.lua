@@ -48,7 +48,7 @@ return {
       { "<C-l>", "<cmd>Obsidian toggle_checkbox<cr>", desc = "Toggle Checkbox" },
       { "<leader>o", "", desc = "Obsidian", mode = "n" },
       { "<leader>oa", "<cmd>Obsidian open<cr>", desc = "Open in Obsidian...", mode = "n" },
-      { "<leader>od", "<cmd>Obsidian dailies<cr>", desc = "Dailies" },
+      { "<leader>od", "<cmd>Obsidian dailies -7 1<cr>", desc = "Dailies" },
       { "<leader>on", "<cmd>Obsidian new<cr>", desc = "New note", mode = "n" },
       { "<leader>oo", "<cmd>Obsidian quick_switch<cr>", desc = "Open", mode = "n" },
       { "<leader>os", "<cmd>Obsidian search<cr>", desc = "Search notes" },
