@@ -17,5 +17,7 @@ vim.filetype.add({
 -- Auto save all files when switching buffers or windows
 vim.cmd([[set autowriteall]])
 
+vim.cmd([[let g:python3_host_prog = expand('~/.local/share/nvim/venv/bin/python')]])
+
 -- Make sure the copilot lsp server is loaded
 -- vim.lsp.enable("copilot_ls")

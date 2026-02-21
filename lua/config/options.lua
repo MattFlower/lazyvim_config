@@ -70,6 +70,7 @@ return {
         "ssh_config",
         "strace",
         "toml",
+        "typescript",
         "vim",
         "vimdoc",
         "xml",
