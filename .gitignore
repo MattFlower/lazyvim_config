@@ -21,4 +21,4 @@ foo.*
 *.log
 data
 
-
+.grip
