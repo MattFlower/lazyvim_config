@@ -6,6 +6,7 @@
   "agents.nvim": { "branch": "main", "commit": "70ed860c2e47cda0e456ec4d8252a27d9d73bf97" },
   "async.nvim": { "branch": "main", "commit": "99aed904ae1253c27fac60b862b6d73ef1380e54" },
   "autolist.nvim": { "branch": "main", "commit": "339499695d3be8c44aefef1d2516464758957004" },
+  "blame-column.nvim": { "branch": "main", "commit": "af31fdd83905d1a07a115ac28ba93bbf93940bfc" },
   "blink.cmp": { "branch": "main", "commit": "78336bc89ee5365633bcf754d93df01678b5c08f" },
   "bufferline.nvim": { "branch": "main", "commit": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3" },
   "calendar.nvim": { "branch": "main", "commit": "0666c44e14d9fa7162a818bfe18c43515427d0b5" },
